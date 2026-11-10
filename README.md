@@ -49,12 +49,22 @@ URL	Page
 /about	About the project
 
 
-Database Tables
-tasks
-Contains the task title, status (default: pending), task date, and timestamps.
-users
-Contains a unique username, full name, email, and timestamps.
-Seeder Data
-The TasksTodaySeeder creates eight tasks dated across three days: yesterday, today, and tomorrow. It also creates exactly one sample user. Task dates are relative to the date the seeder runs, so today's tasks appear on the Welcome page.
-Screenshots
+## Database Tables
+
+### `tasks`
+
+Contains the task **title**, **status** (default: `pending`), **task date**, and timestamps.
+
+### `users`
+
+Contains a unique **username**, **full name**, **email**, and timestamps.
+
+## Seeder Data
+
+The `TasksTodaySeeder` creates **eight tasks** dated across three days: yesterday, today, and tomorrow. It also creates **exactly one sample user**.
+
+Task dates are relative to the date the seeder runs, so today's tasks appear on the Welcome page.
+
+## Screenshots
+
 Add screenshots of the migrations, models, seeder, controller, routes, and application pages here if required for submission.
