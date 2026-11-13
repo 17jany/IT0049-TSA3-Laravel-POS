@@ -3,40 +3,42 @@
 @section('title', 'About')
 
 @section('content')
-<section class="about-page">
-    <div class="about-number">01</div>
+    <div class="pos-content">
+        <section class="pos-hero">
+            <p class="pos-eyebrow">ABOUT THE PROJECT</p>
 
-    <div class="about-content">
-        <p class="eyebrow">ABOUT THE PROJECT</p>
+            <h1>About the System</h1>
 
-        <h1>
-            A simpler way to keep track of what needs to be done today.
-        </h1>
+            <p>
+                This application is an early foundation for a Point of Sale
+                system built with Laravel and the Model-View-Controller approach.
+            </p>
+        </section>
 
-        <p class="about-description">
-            Tasks for Today is a Laravel application that separates
-            today's priorities from the complete task schedule.
-        </p>
-
-        <div class="about-grid">
-            <article class="about-card accent-card">
-                <span>Developed by</span>
-                <h2>Janyrose Guelas</h2>
-                <p>BS Information Technology student</p>
+        <section class="pos-cards">
+            <article class="pos-card">
+                <h2>Project Purpose</h2>
+                <p>
+                    This project demonstrates how a multi-page website can be
+                    organized using a PHP web framework.
+                </p>
             </article>
 
-            <article class="about-card">
-                <span>Built with</span>
-                <h2>Laravel</h2>
-                <p>PHP and MySQL web application</p>
+            <article class="pos-card">
+                <h2>Application Structure</h2>
+                <p>
+                    Routes receive page requests, controllers prepare the data,
+                    and views display the page in the browser.
+                </p>
             </article>
 
-            <article class="about-card">
-                <span>Created for</span>
-                <h2>IT0049</h2>
-                <p>Laboratory Activity</p>
+            <article class="pos-card">
+                <h2>Customer and User Records</h2>
+                <p>
+                    Laravel models and the database store account details.
+                    User profiles can also display prepared avatar images.
+                </p>
             </article>
-        </div>
+        </section>
     </div>
-</section>
 @endsection
